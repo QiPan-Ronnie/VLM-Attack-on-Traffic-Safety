@@ -1,0 +1,5 @@
+scope,gt_label,pred_label,count,cell
+clean,risk_yes,risk_yes,240,TP
+clean,risk_yes,risk_no,112,FN
+clean,risk_no,risk_yes,61,FP
+clean,risk_no,risk_no,34,TN

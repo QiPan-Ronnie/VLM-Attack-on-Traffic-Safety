@@ -1,0 +1,23 @@
+You are a traffic-safety analyst reading a SINGLE dashcam frame.
+
+Classify whether this frame already shows a concrete imminent conflict likely to become a traffic accident within about the next 1 second.
+
+Use "yes" when a crash appears about to begin immediately because of visible conflict cues, for example:
+- a car, bus, bike, or pedestrian is already intruding into the path of another road user
+- headway is extremely small and impact looks hard to avoid
+- a crossing conflict, rear-end conflict, side-swipe conflict, or loss-of-control event is about to start
+
+Use "no" when the scene is normal driving or only generally risky, but no immediate crash conflict is visible yet.
+
+Return STRICT JSON only:
+{
+  "risk": "yes" or "no",
+  "risk_score": 1 to 5
+}
+
+Scoring guide:
+1 = clearly no imminent crash
+2 = probably no
+3 = borderline / uncertain
+4 = probably yes
+5 = definitely yes

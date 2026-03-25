@@ -1,0 +1,32 @@
+﻿dataset:
+  name: DADA-2000
+  clean_frames: 6935
+
+prompt:
+  path: prompts/binary_imminent_risk_prompt.txt
+
+attack:
+  overlay_types:
+    - text_watermark
+    - timestamp_box
+    - logo_patch
+    - semi_transparent_bar
+  placement_modes:
+    - random
+    - critical
+    - background
+  severities:
+    - 2
+    - 4
+  seed: 42
+
+evaluation:
+  alert_threshold:
+    risk_score_gte: 3
+    risk_yes_always_alert: true
+  delay_threshold_sec: 0.5
+
+expected_outputs:
+  clean_rows: 6935
+  attacked_rows: 166440
+  total_rows: 173375

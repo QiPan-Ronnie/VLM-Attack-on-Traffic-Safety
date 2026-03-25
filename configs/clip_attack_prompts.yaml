@@ -1,0 +1,12 @@
+clip_prompts:
+  risk:
+    "yes":
+      - "a dashcam frame where a traffic accident is about to start within the next second"
+      - "imminent collision in the next second in a driving scene"
+      - "dangerous traffic scene with an accident beginning very soon"
+      - "a pre-crash driving frame, accident starts within one second"
+    "no":
+      - "a dashcam frame where no traffic accident is about to start within the next second"
+      - "normal driving scene, no imminent collision in the next second"
+      - "safe traffic scene, accident does not start within one second"
+      - "a non-imminent driving frame, no accident begins in the next second"

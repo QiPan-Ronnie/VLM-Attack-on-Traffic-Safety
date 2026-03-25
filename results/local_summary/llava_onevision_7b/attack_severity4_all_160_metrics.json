@@ -1,0 +1,54 @@
+{
+  "overall": {
+    "rows": 160,
+    "parse_success_rate": 1.0,
+    "clean_attack_candidates_used": 40,
+    "frame_asr_fn_strict": 0.0625,
+    "frame_asr_score_drop": 0.0625,
+    "attacked_yes_rate": 0.9375,
+    "attacked_no_rate": 0.0625,
+    "attacked_risk_score_mean": 3.84375
+  },
+  "by_overlay": [
+    {
+      "overlay_type": "logo_patch",
+      "n": 40,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.925,
+      "attacked_no_rate": 0.075,
+      "frame_asr_fn_strict": 0.075,
+      "frame_asr_score_drop": 0.075,
+      "attacked_risk_score_mean": 3.8
+    },
+    {
+      "overlay_type": "semi_transparent_bar",
+      "n": 40,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.975,
+      "attacked_no_rate": 0.025,
+      "frame_asr_fn_strict": 0.025,
+      "frame_asr_score_drop": 0.025,
+      "attacked_risk_score_mean": 3.95
+    },
+    {
+      "overlay_type": "text_watermark",
+      "n": 40,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.925,
+      "attacked_no_rate": 0.075,
+      "frame_asr_fn_strict": 0.075,
+      "frame_asr_score_drop": 0.075,
+      "attacked_risk_score_mean": 3.825
+    },
+    {
+      "overlay_type": "timestamp_box",
+      "n": 40,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.925,
+      "attacked_no_rate": 0.075,
+      "frame_asr_fn_strict": 0.075,
+      "frame_asr_score_drop": 0.075,
+      "attacked_risk_score_mean": 3.8
+    }
+  ]
+}

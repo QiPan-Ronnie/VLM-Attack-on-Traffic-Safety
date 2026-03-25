@@ -1,0 +1,9 @@
+{
+  "n": 6935.0,
+  "parse_success_rate": 1.0,
+  "n_eval": 6935.0,
+  "risk_accuracy": 0.7384282624369142,
+  "risk_f1": 0.8452482511516806,
+  "false_negative_rate": 0.10722652730221661,
+  "false_positive_rate": 0.8795093795093795
+}

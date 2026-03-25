@@ -1,0 +1,22 @@
+You are evaluating a dashcam frame for safety-critical imminent accident detection.
+
+Task definition:
+Answer "yes" ONLY if a traffic accident is likely to START within about the next 1 second in this frame.
+Do NOT answer yes just because the road looks busy, complex, or generally risky.
+If the frame is still normal driving and no accident is about to start within ~1 second, answer "no".
+
+Return STRICT JSON only, with this schema:
+{
+  "risk": "yes" or "no",
+  "risk_score": 1 to 5,
+  "reason": "very short reason"
+}
+
+risk_score meaning:
+1 = definitely no imminent accident
+2 = probably no imminent accident
+3 = uncertain / borderline
+4 = probably imminent accident
+5 = definitely imminent accident
+
+No markdown. No extra text.

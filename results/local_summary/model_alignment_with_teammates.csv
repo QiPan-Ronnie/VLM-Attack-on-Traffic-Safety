@@ -1,0 +1,7 @@
+model,source,scope,n_manifest,n_eval,parse_rate,accuracy,precision,recall,f1,tp,tn,fp,fn,directly_comparable_to_teammate,note
+DeepSeek-VL-1.3B,teammate_screenshot,full_clean_6935,6935,6935,0.03,0.215,0.805,0.025,0.04849397590361445,136,1353,33,5413,self,From teammate screenshots; no local raw files yet.
+CLIP ViT-B-32,local_reproducible,full_clean_6935,6935,6935,1.0,0.7384282624369142,0.8025271342945084,0.8927734726977834,0.8452380952380952,4954,167,1219,595,yes,"Same full-clean scale (6935), strongest local clean baseline."
+LLaVA-OneVision-0.5B,local_reproducible,subset_clean_100,100,100,1.0,0.5,0.0,0.0,0.0,0,50,0,50,no,"Subset-only result; useful for direction, not apples-to-apples with full clean 6935."
+LLaVA-1.5-7B,local_reproducible,subset_clean_100,100,100,1.0,0.5,0.0,0.0,0.0,0,50,0,50,no,"Subset-only result; useful for direction, not apples-to-apples with full clean 6935."
+LLaVA-OneVision-Qwen2-7B,local_reproducible,balanced_clean_100,100,100,1.0,0.51,0.5063291139240507,0.8,0.6201550387596899,40,11,39,10,no,"Current best LLaVA-family victim candidate, but only on balanced clean100."
+LLaVA-OneVision-Qwen2-7B,local_reproducible_partial,partial_full_clean_258_of_6935,6935,258,0.03720259552992069,0.6744186046511628,0.8210526315789474,0.7572815533980582,0.7878787878787878,156,18,34,50,partial_only,Not directly comparable yet; only first 258 full-clean samples were completed before pause.

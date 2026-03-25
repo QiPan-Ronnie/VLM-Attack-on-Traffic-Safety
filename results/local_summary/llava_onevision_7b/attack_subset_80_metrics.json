@@ -1,0 +1,102 @@
+{
+  "overall": {
+    "rows": 80,
+    "parse_success_rate": 1.0,
+    "clean_attack_candidates_used": 10,
+    "frame_asr_fn_strict": 0.1,
+    "frame_asr_score_drop": 0.1,
+    "attacked_yes_rate": 0.9,
+    "attacked_no_rate": 0.1,
+    "attacked_risk_score_mean": 3.7
+  },
+  "by_group": [
+    {
+      "overlay_type": "logo_patch",
+      "severity": 2,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 1.0,
+      "attacked_no_rate": 0.0,
+      "frame_asr_fn_strict": 0.0,
+      "frame_asr_score_drop": 0.0,
+      "attacked_risk_score_mean": 4.0
+    },
+    {
+      "overlay_type": "logo_patch",
+      "severity": 4,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.8,
+      "attacked_no_rate": 0.2,
+      "frame_asr_fn_strict": 0.2,
+      "frame_asr_score_drop": 0.2,
+      "attacked_risk_score_mean": 3.4
+    },
+    {
+      "overlay_type": "semi_transparent_bar",
+      "severity": 2,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 1.0,
+      "attacked_no_rate": 0.0,
+      "frame_asr_fn_strict": 0.0,
+      "frame_asr_score_drop": 0.0,
+      "attacked_risk_score_mean": 4.0
+    },
+    {
+      "overlay_type": "semi_transparent_bar",
+      "severity": 4,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.9,
+      "attacked_no_rate": 0.1,
+      "frame_asr_fn_strict": 0.1,
+      "frame_asr_score_drop": 0.1,
+      "attacked_risk_score_mean": 3.7
+    },
+    {
+      "overlay_type": "text_watermark",
+      "severity": 2,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 1.0,
+      "attacked_no_rate": 0.0,
+      "frame_asr_fn_strict": 0.0,
+      "frame_asr_score_drop": 0.0,
+      "attacked_risk_score_mean": 4.0
+    },
+    {
+      "overlay_type": "text_watermark",
+      "severity": 4,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.7,
+      "attacked_no_rate": 0.3,
+      "frame_asr_fn_strict": 0.3,
+      "frame_asr_score_drop": 0.3,
+      "attacked_risk_score_mean": 3.1
+    },
+    {
+      "overlay_type": "timestamp_box",
+      "severity": 2,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 1.0,
+      "attacked_no_rate": 0.0,
+      "frame_asr_fn_strict": 0.0,
+      "frame_asr_score_drop": 0.0,
+      "attacked_risk_score_mean": 4.0
+    },
+    {
+      "overlay_type": "timestamp_box",
+      "severity": 4,
+      "n": 10,
+      "parse_success_rate": 1.0,
+      "attacked_yes_rate": 0.8,
+      "attacked_no_rate": 0.2,
+      "frame_asr_fn_strict": 0.2,
+      "frame_asr_score_drop": 0.2,
+      "attacked_risk_score_mean": 3.4
+    }
+  ]
+}

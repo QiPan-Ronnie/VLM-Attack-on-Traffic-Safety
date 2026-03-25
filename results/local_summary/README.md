@@ -6,6 +6,7 @@ Included:
 - confusion-matrix summaries
 - alignment tables
 - small JSON summaries for prior local experiments
+- current partial handoff summaries for long-running clean6935 experiments
 
 Excluded on purpose:
 

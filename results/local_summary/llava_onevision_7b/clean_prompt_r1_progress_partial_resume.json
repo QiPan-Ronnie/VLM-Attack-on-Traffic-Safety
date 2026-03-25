@@ -1,0 +1,18 @@
+{
+  "run_label": "clean6935_prompt_r1_partial_resume",
+  "model_name": "llava-hf/llava-onevision-qwen2-7b-ov-hf",
+  "prompt_file": "prompts/binary_imminent_risk_prompt.txt",
+  "target_total_clean": 6935,
+  "prefix_ok_rows": 487,
+  "resume_total_rows": 208,
+  "resume_ok_rows": 207,
+  "resume_error_rows": 1,
+  "merged_unique_ok_rows": 694,
+  "coverage_ratio": 0.10007209805335256,
+  "fatal_status": "paused_after_local_oom",
+  "notes": [
+    "Old prompt-r1 full-clean run hit CUDA OOM after 487 valid rows; invalid OOM tail was excluded.",
+    "Resume-from-488 run produced additional valid rows before another local OOM and pause.",
+    "This summary is intended for GitHub handoff / Cursor reading, not as final clean6935 result."
+  ]
+}

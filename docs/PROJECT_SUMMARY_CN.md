@@ -945,6 +945,35 @@ repo_root/
    - OneVision clean full `6935`
    - 如果 clean 通过，再跑 full attack
 
+### 15.7 当前 GitHub 迁移状态
+
+截至当前更新，已经完成一个**干净仓库版**的整理与首次推送：
+
+- 本地干净仓库目录：
+  - `projects/codes/VLM-Attack-on-Traffic-Safety`
+- GitHub 仓库：
+  - `git@github.com:QiPan-Ronnie/VLM-Attack-on-Traffic-Safety.git`
+  - `https://github.com/QiPan-Ronnie/VLM-Attack-on-Traffic-Safety`
+- 首次提交：
+  - `aa90ee0c07f684fc60e4814e4c98be73db2863ec`
+
+这个 GitHub 仓库当前已经包含：
+
+- 核心脚本
+- prompts
+- configs
+- PowerShell 工具
+- 中文交接文档
+- 轻量级结果摘要
+
+当前仍然只保留在本地、未上传到 GitHub 的内容：
+
+- 大体积 raw prediction `.jsonl`
+- `hf_cache`
+- 长日志
+- 生成图片
+- 本地 OOM 备份和暂停状态文件
+
 ---
 
 ## 16. 下一位 agent 的建议执行顺序
